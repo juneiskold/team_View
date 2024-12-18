@@ -1,0 +1,11 @@
+@font-face {
+    font-family: aestheticFont;
+    src: url("zaslia.regular.otf");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: aestheticFont;
+}
