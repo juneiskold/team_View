@@ -41,3 +41,18 @@ body, html {
     text-align: center;
     z-index: 10;
 }
+
+.video-label a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.video-wrapper:hover {
+    transform: scale(1.02);
+}
+
+.video-wrapper:hover .video-label {
+    opacity: 1;
+}
